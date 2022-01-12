@@ -1,0 +1,62 @@
+.bg-menu{
+    background-color: #3DB8B9;
+    font-family: Nova Round ,cursive;
+    font-size: 120%;
+}
+
+.bg-carrosel{
+    background-color: #406b7a; /*#345764*/
+}
+
+.bg-ironman{
+    background-color: rgb(180, 61, 61);
+}
+
+.bg-captain {
+    background-color: #5da8c4;
+}
+
+.bg-spider{
+    /*background-color: rgb(151, 31, 31);*/
+    background-color: #933c3c;
+}
+
+.bg-4teto{
+    background-color: rgb(116, 116, 187);
+}
+
+.bg-super{
+    background-color: #46849b;
+}
+
+.bg-batman{
+    background-color: rgb(46, 46, 46);
+}
+
+.bg-Joel_Ellie{
+    background-color: rgb(68, 68, 68);
+}
+
+.bg-contato{
+    background-color: #169191;
+}
+
+.navbar-brand{
+    padding-left: 1cm;
+    margin: 8px;
+    size: 60px;
+    font-size: 180%;
+}
+
+.links{
+    padding-left: 1.5cm; 
+    padding-top: 0.1cm;
+ }
+
+ .background{
+     background-color:rgb(214, 224, 233)
+ }
+
+ h1,h2,h3,h4,p,li,form{
+    font-family: Nova Round ,cursive;
+ }

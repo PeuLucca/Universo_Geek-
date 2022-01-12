@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleQuiz.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
+    <title>Quiz geek</title>
+</head>
+<body class="backgroundColor">
+    
+    <div>
+
+        <div id="topo" >
+            <h1 style="margin-left: 15px;">Teste seus conhecimentos Geeks</h1>
+            <h3 style="margin-left: 15px;">Arraste os nomes para os heróis correspondentes:</h3>
+            <h4 id="pontuacao" style="margin-left: 15px;">PONTUAÇÃO: 0/6</h4>
+        </div>
+
+        <div class="bordaHerois" id="super" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>Superman</h2>
+            <img src="imagens/iconSuperman.png" width="50px">
+        </div>
+
+        <div class="bordaHerois" id="demolidor" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>Demolidor</h2>
+            <img src="imagens/demolidorIcon.png" width="50px">
+        </div>
+
+        <div class="bordaHerois" id="batman" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>Batman</h2>
+            <img src="imagens/iconBatman.ico" width="50px">
+        </div>
+
+        <div class="bordaHerois" id="mMara" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>Mulher Maravilha</h2>
+            <img src="imagens/iconWonderWoman.png" width="50px">
+        </div>
+
+        <div class="bordaHerois" id="flash" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>Flash</h2>
+            <img src="imagens/iconFlash.png" width="50px">
+        </div>
+
+        <div class="bordaHerois" id="mGata" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h2>Mulher Gata</h2>
+            <img src="imagens/iconCatWoman.png" width="50px">
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="bordaIdentidade" id="batman" ondragstart="drag(event)" draggable="true">
+            <h3>Bruce Wayne</h3>
+        </div>
+    
+        <div class="bordaIdentidade" id="flash" ondragstart="drag(event)" draggable="true">
+            <h3>Barry Allen</h3>
+        </div>
+
+        <div class="bordaIdentidade" id="doreenGreen" ondragstart="drag(event)" draggable="true">
+            <h3>Doreen Green</h3>
+        </div>
+
+        <div class="bordaIdentidade" id="mMara" ondragstart="drag(event)" draggable="true">
+            <h3>Diana Prince</h3>
+        </div>
+
+        <div class="bordaIdentidade" id="mGata" ondragstart="drag(event)" draggable="true">
+            <h3>Selina Kyle</h3>
+        </div>
+
+        <div class="bordaIdentidade" id="demolidor" ondragstart="drag(event)" draggable="true">
+            <h3>Matt Murdock</h3>
+        </div>
+
+        <div class="bordaIdentidade" id="super" ondragstart="drag(event)" draggable="true">  
+            <h3>Clark Kent</h3>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="script.js" ></script>
+
+</html>
